@@ -1,0 +1,268 @@
+body {
+  box-sizing: border-box;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+p, h1, h2, h3 {
+  color: #0066ff;
+  font-family: 'Pontano Sans', sans-serif;
+}
+
+/*#avatar {
+  left: 680px;
+  top: 780px;
+  position: relative;
+  border: 1px solid red;
+}*/
+#panda {
+   width: 20px;
+   height: 20px;
+   position: absolute;
+   z-index: 10;
+}
+
+#game {
+  width: 100%;
+	height: 900px;
+	border: 1px solid green;
+  display:block;
+  background-image: url(../images/bgr3.png),
+				            url(../images/bgr2.png),
+				            url(../images/bgr1.png);
+
+	background-repeat: no-repeat,
+					           no-repeat,
+					           no-repeat;
+
+	background-position: center top,
+						           center top,
+						           center top;
+ }
+
+header {
+  height: 50px;
+  width: 1400px;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid green;
+  background-color: blue;
+}
+ #slides{
+   width: 1400px;
+   height: 800px;
+   display: block;
+   margin: 0 auto;
+   border: 1px solid red;
+ }
+
+#container {
+  display: none;
+  /*padding-left: 200px;*/
+  margin-left: 200px;
+  width: 1000px;
+  height: 800px;
+
+  position: absolute;
+  border: 5px solid yellow;
+}
+.grass {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  float: left;
+  background-color: green;
+}
+
+.plants {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  float: left;
+  background-color: darkgreen;
+}
+
+.path {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  float: left;
+  background-color: brown;
+}
+
+.hearts {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  float: left;
+  background-color: red;
+}
+
+.apples {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  float: left;
+  background-color: yellow;
+}
+
+.snakes {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  float: left;
+  background-color: lime;
+}
+
+.evil {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  float: left;
+  background-color: silver;
+}
+
+.fish {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  float: left;
+  background-color: pink;
+}
+
+.books {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  float: left;
+  background-color: purple;
+}
+
+
+#slides_container1 {
+  display: none;
+  width: 1400px;
+  height: 900px;
+  position: relative;
+  /*transition:all 1s;*/
+  background-image: url(../images/cloud.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
+}
+#slides_container2 {
+  display: none;
+  width: 1400px;
+  height: 900px;
+  position: relative;
+  /*transition:all 1s;*/
+  background-image: url(../images/cloud.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
+}
+#rules {
+   display: block;
+   position: relative;
+   margin-left: auto;
+   margin-right: auto;
+   padding-top: 15%;
+   text-align: center;
+   vertical-align: middle;
+   border: 1px solid green;
+}
+
+#t_rules {
+  text-align: center;
+  font-size: 1.3em;
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+  border: 1px solid green;
+  }
+
+#futher_btn {
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border: 1px solid green;
+}
+#move_on {
+   display: inline-block;
+   margin-left: auto;
+   margin-right: auto;
+   vertical-align: middle;
+   text-align: center;
+   border: 1px solid green;
+}
+#futher_btn_img {
+    display: inline-block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#remember {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   padding-top: 15%;
+   text-align: center;
+   border: 1px solid green;
+}
+
+.items{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid green;
+}
+#first_item {
+  display: inline-block;
+  margin-right: 100px;
+  margin-left: auto;
+  width: 150px;
+  height: 150px;
+  border: 1px solid green;
+}
+#second_item {
+  display: inline-block;
+  margin-right: 100px;
+  width: 150px;
+  height: 150px;
+  border: 1px solid green;
+}
+#third_item {
+  display: inline-block;
+  margin-right: auto;
+  width: 150px;
+  height: 150px;
+  border: 1px solid green;
+}
+#it_count1 {
+  display: inline-block;
+  margin-right: 100px;
+  margin-left: auto;
+  width: 150px;
+  border: 1px solid green;
+}
+#it_count2 {
+  display: inline-block;
+  margin-right: 100px;
+  width: 150px;
+  border: 1px solid green;
+}
+#it_count3 {
+  display: inline-block;
+  margin-right: auto;
+  width: 150px;
+  border: 1px solid green;
+}
